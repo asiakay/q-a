@@ -1,3 +1,26 @@
+#Requirements for trivia app 
+
+1) [x] install bootstrap for react, - https://react-bootstrap.github.io/ | https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme
+2) [x] shuffle answer options
+2) [] pass `question` and randomized option choices as props to modal dialog
+3) [] study useRef
+4) [x] make correct answer different color from incorrect answers 
+5) [x] add checkboxes/buttons to select answer 
+6) [x] add buttons to submit answer form and get score of correct answers 
+
+Next Steps 
+Implement React Bootstrap / Sass into stylesheet
+Add option to let user select 1) level of difficulty and 2) category 
+
+Npm Packages 
+"html-entities": "^2.3.3"
+"nanoid": "^4.0.0"
+"react-bootstrap": "^2.6.0"
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
