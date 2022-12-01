@@ -1,0 +1,253 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "General Knowledge",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "&quot;Typewriter&quot; is the longest word that can be typed using only the first row on a QWERTY keyboard.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Sports",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In what sport is a &quot;shuttlecock&quot; used?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+          "Table Tennis",
+          "Rugby",
+          "Cricket"
+        ]
+      },
+      {
+        "category": "Science & Nature",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The planet Mars has two moons orbiting it.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Grant Gustin plays which superhero on the CW show of the same name?",
+        "correct_answer": "The Flash",
+        "incorrect_answers": [
+          "The Arrow",
+          "Black Canary",
+          "Daredevil"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the world&#039;s first video game?",
+        "correct_answer": "Tennis for Two",
+        "incorrect_answers": [
+          "Spacewar!",
+          "Pong",
+          "Space Travel"
+        ]
+      },
+      {
+        "category": "Science: Gadgets",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The term &quot;battery&quot; to describe an electrical storage device was coined by?",
+        "correct_answer": "Benjamin Franklin",
+        "incorrect_answers": [
+          "Nikola Tesla",
+          "Luigi Galvani",
+          " Alessandro Volta"
+        ]
+      },
+      {
+        "category": "Animals",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "For what reason would a spotted hyena &quot;laugh&quot;?",
+        "correct_answer": "Nervousness",
+        "incorrect_answers": [
+          "Excitement",
+          "Aggression",
+          "Exhaustion"
+        ]
+      },
+      {
+        "category": "Entertainment: Cartoon & Animations",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?",
+        "correct_answer": "Water",
+        "incorrect_answers": [
+          "Air",
+          "Earth",
+          "Fire"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What were the first states to break away from Yugoslavia?",
+        "correct_answer": "Slovenia, Croatia",
+        "incorrect_answers": [
+          "Macedonia, Montenegro",
+          "Slovenia, Macedonia",
+          "Montenegro, Slovenia"
+        ]
+      },
+      {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+        "correct_answer": "Billy Loomis and Stu Macher",
+        "incorrect_answers": [
+          "Dewey Riley",
+          "Sidney Prescott",
+          "Archie Prescott and Philip Marv"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The cake depicted in Valve&#039;s &quot;Portal&quot; franchise most closely resembles which real-world type of cake?",
+        "correct_answer": "Black Forest",
+        "incorrect_answers": [
+          "Devil&#039;s Food",
+          "Molten Chocolate",
+          "German Chocolate"
+        ]
+      },
+      {
+        "category": "Entertainment: Japanese Anime & Manga",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which anime did Seiji Kishi NOT direct?",
+        "correct_answer": "Another",
+        "incorrect_answers": [
+          "Humanity Has Declined",
+          "Assassination Classroom",
+          "Danganronpa: The Animation"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the original name of New York City?",
+        "correct_answer": "New Amsterdam",
+        "incorrect_answers": [
+          "New London",
+          "New Paris",
+          "New Rome"
+        ]
+      },
+      {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Released in 2001, the first edition of Apple&#039;s Mac OS X operating system (version 10.0) was given what animal code name?",
+        "correct_answer": "Cheetah",
+        "incorrect_answers": [
+          "Puma",
+          "Tiger",
+          "Leopard"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Moon&quot;, there is a secondary called the QED. What does QED stand for?",
+        "correct_answer": "Quantum Entanglement Device",
+        "incorrect_answers": [
+          "Quad Ectoplasmic Driver",
+          "Question Every Dog",
+          "Quality Edward Device"
+        ]
+      },
+      {
+        "category": "Celebrities",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
+        "correct_answer": "Auction Hunters",
+        "incorrect_answers": [
+          "Ramsay&#039;s Kitchen Nightmares",
+          "Hotel Hell",
+          "Hell&#039;s Kitchen"
+        ]
+      },
+      {
+        "category": "Science & Nature",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What do you study if you are studying entomology?",
+        "correct_answer": "Insects",
+        "incorrect_answers": [
+          "Humans",
+          "the Brain",
+          "Fish"
+        ]
+      },
+      {
+        "category": "Entertainment: Board Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "When Magic: The Gathering was first solicited, which of the following was it originally titled?",
+        "correct_answer": "Mana Clash",
+        "incorrect_answers": [
+          "Magic",
+          "Magic Clash",
+          "Mana Duels"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which country was NOT part of the Soviet Union?",
+        "correct_answer": "Romania",
+        "incorrect_answers": [
+          "Turkmenistan",
+          "Belarus",
+          "Tajikistan"
+        ]
+      },
+      {
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the currency of Poland?",
+        "correct_answer": "Złoty",
+        "incorrect_answers": [
+          "Ruble",
+          "Euro",
+          "Krone"
+        ]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the cartoon &#039;SpongeBob SquarePants&#039;, what did the acronym E.V.I.L stand for?",
+        "correct_answer": "Every Villain Is Lemons",
+        "incorrect_answers": [
+          "Every Villain Is Lemonade",
+          "Every Villain Is Limes",
+          "Each Villain Is Lemonade"
+        ]
+      }
+    ]
+  }
