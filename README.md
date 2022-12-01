@@ -1,4 +1,4 @@
-#Requirements for trivia app 
+# Requirements for trivia app #
 
 1) [x] install bootstrap for react, - https://react-bootstrap.github.io/ | https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme
 2) [x] shuffle answer options
