@@ -9,7 +9,7 @@ export default function Questions() {
   const [handleRestart, setHandleRestart] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("https://opentdb.com/api.php?amount=5&type=multiple")
+    fetch("https://opentdb.com/api.php?amount=5&category=12")
       .then((res) => res.json())
       .then((data) =>
         setAllQuestions(
@@ -21,10 +21,12 @@ export default function Questions() {
               answers: shuffle(
                 decodeArray([item.correct_answer, ...item.incorrect_answers])
               ),
-              selectedIndex: -1
+              selectedIndex: -1,
+              Hello: false
             };
           })
         )
+        
       );
   }, [handleRestart]);
 
@@ -35,11 +37,13 @@ export default function Questions() {
         score++;
       }
     }
+    console.log(allQuestions);
     return score;
   }
 
   function decodeArray(array) {
     return array.map((item) => decode(item));
+
   }
 
   function shuffle(array) {
@@ -58,10 +62,10 @@ export default function Questions() {
     }
     return array;
   }
-
+  
   function selectAnswer(id, index) {
     if (!isCheck) {
-      setAllQuestions((prev) =>
+      setAllQuestions((prev) => 
         prev.map((item) => {
           return item.id === id ? { ...item, selectedIndex: index } : item;
         })
@@ -70,16 +74,17 @@ export default function Questions() {
   }
 
   const QuestionElements = allQuestions.map((question) => (
-    <Question
-      key={question.id}
-      id={question.id}
-      question={question.question}
-      correct_answer_index={question.answers.indexOf(question.correct_answer)}
-      ans={question.answers}
-      selectedIndex={question.selectedIndex}
-      selectAnswer={selectAnswer}
-      isCheck={isCheck}
-    />
+   
+     <Question
+       key={question.id}
+       id={question.id}
+       question={question.question}
+       correct_answer_index={question.answers.indexOf(question.correct_answer)}
+       ans={question.answers}
+       selectedIndex={question.selectedIndex}
+       selectAnswer={selectAnswer}
+       isCheck={isCheck}
+     />
   ));
 
   function restartGame() {

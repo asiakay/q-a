@@ -47,7 +47,8 @@ export default function Question(props) {
   }
 
   function getButtonElement(index) {
-    return (
+    if(!(props.ans[index]===undefined)){
+        return (
       <button
         onClick={() => props.selectAnswer(props.id, index)}
         style={getStyle(index)}
@@ -56,7 +57,7 @@ export default function Question(props) {
       </button>
     );
   }
-
+  }
   return (
     <div className="question">
       <h1>{props.question}</h1>
