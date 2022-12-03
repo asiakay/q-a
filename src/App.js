@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Form from 'react-bootstrap/form';
 import Start from "./components/Start.js";
 import Quiz from "./components/Quiz.js";
+import Navigation from "./components/Navigation.js";
 import "./styles.css";
 
 
@@ -23,7 +24,8 @@ function App() {
   return (
 <main>
   {!isStarted && <Start start={start} />}
-  {isStarted && <Quiz/>}
+  {isStarted && <> <Navigation />
+<Quiz/></> }
 </main>
   );
 }

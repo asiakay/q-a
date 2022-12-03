@@ -3,13 +3,15 @@ import { nanoid } from "nanoid";
 import { decode } from "html-entities";
 import Question from "./Question.js";
 
-export default function Questions() {
+
+export default function Quiz() {
+
   const [allQuestions, setAllQuestions] = React.useState([]);
   const [isCheck, setIsCheck] = React.useState(false);
   const [handleRestart, setHandleRestart] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("https://opentdb.com/api.php?amount=5&category=12")
+    fetch("https://opentdb.com/api.php?amount=19&category=12")
       .then((res) => res.json())
       .then((data) =>
         setAllQuestions(
@@ -74,7 +76,6 @@ export default function Questions() {
   }
 
   const QuestionElements = allQuestions.map((question) => (
-   
      <Question
        key={question.id}
        id={question.id}
