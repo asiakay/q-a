@@ -11,7 +11,7 @@ export default function Quiz() {
   const [handleRestart, setHandleRestart] = React.useState(false);
 
   React.useEffect(() => {
-    fetch("https://opentdb.com/api.php?amount=19&category=12")
+    fetch("https://opentdb.com/api.php?amount=21&category=12")
       .then((res) => res.json())
       .then((data) =>
         setAllQuestions(
