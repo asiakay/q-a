@@ -1,3 +1,10 @@
+![Image](https://user-images.githubusercontent.com/66960776/241687832-3f4c26e8-3c38-429b-aabb-e3459a2744e0.jpg)
+
+
+
+![Image](https://user-images.githubusercontent.com/66960776/241687866-67581238-85d5-4682-ac7b-6e2715337f54.jpg)
+
+
 # Requirements for trivia app #
 
 1) [x] install bootstrap for react, - https://react-bootstrap.github.io/ | https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme
